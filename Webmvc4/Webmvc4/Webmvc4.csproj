@@ -103,6 +103,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\Temp\Controllers\HomeController.cs" />
     <Compile Include="Areas\Temp\TempAreaRegistration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -119,7 +120,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Temp\Controllers\" />
     <Folder Include="Areas\Temp\Models\" />
     <Folder Include="Areas\Temp\Views\Shared\" />
     <Folder Include="Views\" />
